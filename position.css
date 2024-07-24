@@ -1,0 +1,29 @@
+#box1
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    background-color: aquamarine;
+    /*position: static; jese hai vese hi place ho jayega div*/
+    /*position: relative; related to itself (no overlapping)*/
+    /*position: absolute; related to ancestor (overlapping)*/
+    /*position: fixed; div is fixed even if we scroll (overlapping)*/
+    position:sticky;/* jha pe div milega vhi se fixed ho jayega*/
+    top: 20px;
+}
+
+#box2
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    background-color: aquamarine;
+    margin:100px;
+    /* z-index: -1; other div (box1) will overlap current div (box2)*/
+    /* z-index: 0; no changes will occur */
+    /* z-index: 1; just opposite of z-index:-1 */
+    background-image: url("https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg");
+    /* background-size:contain; actual size image with repeating image */
+    background-size: cover; /* image gets zoom according to the size of div so that no empty space will left over*/
+    /* background-size:auto; not advisable , as it fits exactly same the image is (most of the times image is not visible )*/
+}

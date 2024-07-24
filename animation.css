@@ -1,0 +1,20 @@
+div
+{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-weight: 900;
+    margin: 300px;
+    animation: animate 2s steps(3) 0s infinite alternate;
+} 
+
+@keyframes animate
+{
+    0% {background-color: aquamarine; font-size: small;}
+    50% {background-color: black;} 
+    100%{background-color: brown; font-size: larger;}
+} 
+
+/* from = 0% */
+/* to = 100% */

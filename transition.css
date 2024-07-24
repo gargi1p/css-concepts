@@ -1,0 +1,14 @@
+div
+{
+   height: 50px;
+   width: 50px;
+   background-color: aqua;
+   transition:steps() 2s ease-in 0s;
+   padding: 200px;
+}
+
+div:hover
+{
+     transform: scale(2); /* doubles the size */
+     transform: translate(200px); /* shifts div a/c px */
+}

@@ -1,0 +1,18 @@
+#main
+{
+    height:200px;
+    width:400px;
+    border:4px solid black;
+    margin-top: 200px;   /*outer div (the main larger box) will move*/
+    padding-left: 200px; /*inner div (BOX1) will move*/ 
+}
+
+.box
+{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    margin-left: 200px;  /* BOX1 will move */
+    padding-left: 50px;  /* the content of inner div ( word-BOX1 ) will move */
+
+}

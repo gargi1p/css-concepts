@@ -1,0 +1,31 @@
+ body
+{
+    text-align: center;
+} 
+
+#main /*container*/
+{
+    height:600px;
+    width:800px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row; /* top to bottom */
+    justify-content: center; /* it works for row(l to r) */
+    align-items: center; /* it works for column (t to b) */
+    align-content: center; /* sare content ko ek sath chipka deta h and align a space between div and content that came all together (t to b)*/ 
+    flex-wrap: wrap;
+}
+
+.box /*items*/
+{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+#box2 /*particular item*/
+{
+    align-self:flex-end; /* BOX2 will shift to the end */
+}

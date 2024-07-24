@@ -1,0 +1,17 @@
+div
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 50px solid rgb(151, 151, 174); 
+    border-top: 50px solid rgb(45, 76, 148); 
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    animation:spinanimate 2s linear 0s infinite normal;
+}
+ @keyframes spinanimate
+ {
+    from {transform:rotate(0deg);}
+    to{transform:rotate(360deg);} 
+}

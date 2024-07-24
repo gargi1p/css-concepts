@@ -1,0 +1,82 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+header
+{
+    background-color: black;
+    height: 60px;
+    border: 6px solid white;
+}
+
+body
+{
+    background-color: bisque;
+}
+
+
+#main
+{
+    color:chocolate;
+    font-size: 25px;
+}
+
+button
+{
+    background-color: #f08804;
+}
+
+a
+{
+    color: white;
+    margin-right: 200px;
+}
+
+#HORSE
+{
+  height: 300px;
+  width: 300px;
+  border:10px solid black;
+  margin: 80px;
+  display:inline-block;
+  background-image: url("https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRkuIk0TX0D2mBw2dCV5TUYmH5UJB-xkW6leJWOX-0RYdE3WL_cZr2WW8kpgoJiINaJEP9vHG0UYCtywms");
+  background-size: cover;
+}
+
+main
+{
+    height: 580px;
+    text-align: center;
+}
+
+footer
+{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+#ME
+{
+    text-decoration: wavy underline;
+    font-family: cursive;
+    font-weight: 900;
+    line-height: 5px;
+}
+
+P
+{
+    HEIGHT:60PX;
+    WIDTH:200PX; margin: 10PX;
+    padding: 10PX;
+    background-color: black;
+    position: fixed;
+    bottom: 80PX;
+    left: 100px;
+    color: aliceblue;
+    font-size: large;
+    font-family: cursive;
+}
